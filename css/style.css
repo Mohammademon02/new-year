@@ -1,0 +1,266 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header css start */
+
+.header-container{
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    text-align: right;
+}
+
+.header-details{
+    padding-right: 220px;
+    padding-top: 116px;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #151414;
+}
+
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444343;
+}
+
+.header-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #F15B22;
+    cursor: pointer;
+}
+
+/* header css end  */
+
+
+/* my-failures section css start  */
+
+.failures-container{
+    margin: 5% 8%;
+    padding: 2% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.failures-banner img{
+    width: 569px;
+    height: 723px;
+}
+
+
+.failures-details h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #151414;
+}
+
+.failures-details p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.fa-check{
+    color: #16D887;
+}
+
+.failures-details li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* my-failures section css end  */
+
+/* my plans section css start  */
+
+.my-plans-section{
+    margin: 2% 4%;
+}
+
+.my-plans-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #151414;
+}
+
+
+.plans-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.plan-details h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #151414;
+}
+
+.plan-details p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #444343;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* my plans section css end  */
+
+
+/* contact section css start  */
+
+.contact-section{
+    margin: 5% 10%;
+}
+
+.contact-container{
+    background-image:
+    linear-gradient(90deg,#F15B22 0%, rgba(0, 95, 172, 0) 100%),
+    url('../images/watch.png');
+    width:90%;
+    height: 220px;
+    background-size: cover;
+    color: white;
+    padding:20px 40px;
+    border-radius: 15px;
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.contact-btn{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 19px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    color: #F15B22;
+    background-color: #ffffff;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* contact section css end  */
+
+/* successful students section css start  */
+
+.successful-students-section {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+.successful-students-section h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+.successful-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.students{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.students img {
+    width: 100px ;
+    height: 150px;
+    border-radius: 100%;
+}
+
+/* successful students section css end  */
+
+/* footer section css start  */
+
+.footer-container{
+    padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151414;
+}
+
+
+.footer-title{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-details{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-right h3{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+input{
+    border-color: #ffffff;
+    height: 50px;
+    width: 250px;
+    background-color: #151414;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.subs-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #F15B22;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+/* footer section css end  */
